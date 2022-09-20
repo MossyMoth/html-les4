@@ -1,0 +1,69 @@
+Body{
+    padding:0px;
+    font-family:sans-serif;
+    background-color:rgb(230, 215, 200);
+  }
+  
+  
+  div {
+    font-size:15px;
+    background-color:rgba(240, 195, 75, 1);
+    padding:30px;
+    margin:20px auto;
+    margin-bottom:0px;
+    margin-left:center;
+    width:50vw;
+    min-width:500px;
+    max-width:2000px;
+    border:2px solid rgb(80, 80, 80);
+  }
+  
+  H1{
+    margin:20px;
+    padding:10px;
+    text-align:center;
+    color:rgb(100, 0, 0);
+    font-size:55px;
+  }
+  
+  p {
+    color:black;  
+  }
+  
+  span {
+    font-style:italic;
+    color:white;
+  }
+  
+  img {
+    width:505px;
+  }
+  
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color:darkgrey;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color:orange;
+  }
+  
+  
+  #index{
+    margin-left:150px;
+    background-color:rgb(240, 150, 150);
+  }
+  
+  #medical{
+    margin-left:400px;
+    background-color:rgb(150, 220, 180);
+  }
+  
+  #socials{
+    margin-left:200px;
+  }
