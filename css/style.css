@@ -9,13 +9,17 @@ Body{
     font-size:15px;
     background-color:rgba(240, 195, 75, 1);
     padding:30px;
-    margin:20px auto;
+    margin:40px auto;
     margin-bottom:0px;
     margin-left:center;
     width:50vw;
     min-width:500px;
     max-width:2000px;
     border:2px solid rgb(80, 80, 80);
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
   }
   
   H1{
@@ -36,7 +40,7 @@ Body{
   }
   
   img {
-    width:505px;
+    width:300px;
   }
   
   
@@ -45,7 +49,7 @@ Body{
   }
   
   a:visited {
-    color:darkgrey;
+    color:rgb(28, 47, 111);
   }
   
   a:hover {
@@ -54,16 +58,17 @@ Body{
   }
   
   
-  #index{
+  #skills{
     margin-left:150px;
     background-color:rgb(240, 150, 150);
   }
   
-  #medical{
+  #projects{
     margin-left:400px;
     background-color:rgb(150, 220, 180);
   }
-  
-  #socials{
-    margin-left:200px;
+
+  #contact{
+    margin-left:250px;
+    background-color: rgb(170, 170, 210);
   }
