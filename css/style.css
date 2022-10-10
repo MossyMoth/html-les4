@@ -1,15 +1,42 @@
 Body{
+    margin: auto;
     padding:0px;
     font-family:sans-serif;
     background-color:rgb(230, 215, 200);
   }
+
+
+@media (max-width: 480px) {
+  nav {
+    flex-direction:column;
+   }
+}
   
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+    flex: 1;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(0, 106, 205);
+    padding: 1vh;
+  }
   
+nav a:hover {
+    background-color: darkblue;
+    color: white;
+  }
+
+
   div {
-    font-size:15px;
+    font-size:1.8vw;
     background-color:rgba(240, 195, 75, 1);
-    padding:30px;
-    margin:40px auto;
+    padding:18px;
+    margin:30px auto;
     margin-bottom:0px;
     margin-left:center;
     width:50vw;
@@ -18,10 +45,11 @@ Body{
     border:2px solid rgb(80, 80, 80);
     border-radius: 25px;
     -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); 
   }
   
+
   H1{
     margin:20px;
     padding:10px;
@@ -59,16 +87,16 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
   
   
   #skills{
-    margin-left:150px;
+    margin-left:12vw;
     background-color:rgb(240, 150, 150);
   }
   
   #projects{
-    margin-left:400px;
+    margin-left:40vw;
     background-color:rgb(150, 220, 180);
   }
 
   #contact{
-    margin-left:250px;
+    margin-left:16vw;
     background-color: rgb(170, 170, 210);
   }
